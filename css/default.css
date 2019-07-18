@@ -1,0 +1,271 @@
+#field{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 10px;
+    top: 10px;
+    overflow: hidden;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url("../images/ground.gif");
+    cursor: url("../images/cross.png") 25 25, crosshair;
+}
+
+#hpHeart{
+    width: 20px;
+    height: 20px;
+    float: left;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#hpBar{
+    position: absolute;
+    width: 600px;
+    height: 20px;
+    left: 5px;
+    bottom: 5px;
+}
+
+#newGame{
+    position: absolute;
+    width: 371px;
+    height: 83px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#gameName{
+    position: absolute;
+    width: 566px;
+    height: 234px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#helpButton{
+    position: absolute;
+    width: 465px;
+    height: 63px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#helpWindow{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url("../images/help.gif");
+}
+
+#okButton{
+    position: absolute;
+    width: 128px;
+    height: 63px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#scoreBar{
+    position: absolute;
+    right: 5px;
+    top: 5px;    
+}
+
+#gameOver{
+    position: absolute;
+    width: 203px;
+    height: 130px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#clickToChange{
+    position: absolute;
+    width: 280px;
+    max-width: 40%;
+    height:auto;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#nameWindow{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url("../images/enter_your_name.png");
+}
+
+#inputName{
+    position: absolute;  
+    font-size:24px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#incorrect{
+    position: absolute;
+    width: 285px;
+    height: 27px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#top5{
+    position: absolute;
+    width: 205px;
+    height: 63px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#top5Table{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url("../images/top5_table.png");
+}
+
+#showAll{
+    position: absolute;
+    width: 143px;
+    height: 63px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#allTableHolder{
+    position: absolute;
+    left: 730px;
+    top: 10px;
+}
+
+#allTableHolder table{
+    width: 200px;
+    border-collapse: collapse;
+}
+
+#allTableHolder .odd{
+    text-align: left;
+    width: 140px;
+    
+}
+
+#allTableHolder .even{
+    text-align: right;
+    width: 50px;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#allTableHolder tbody{
+    display: block;
+    overflow: auto;
+    height: 660px;
+    width: 248px;
+}
+
+#allTableHolder thead tr{
+    display: block;
+}
+
+#top5canvas{
+    position: absolute;
+}
+
+#speaker{
+    position: absolute;
+    width: 65px;
+    height: 52px;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
